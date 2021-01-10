@@ -16,8 +16,8 @@
 	background-color: #d7d7d7;
 }
 .blank-image3 {
-	width: 716px;
-	height: 626px;
+	width: 317px;
+	height: 376px;
 	background-color: #d7d7d7;
 }
 .main-container {
@@ -127,11 +127,27 @@
 .single-services {
 	width: 350px;
 	height: 200px;
-	border: 1px solid #000000;
+	/* border: 1px solid #000000; */
 	box-sizing: border-box;
 	padding: 50px 20px;
+	box-shadow: 10px 10px 40px gray;
 }
 .single-services h3 {
 	padding-bottom: 10px;
 	font-size: 24px;
+}
+
+/* Years Success */
+
+.years-success-section {
+	padding: 100px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.years-success-section .success-div-wrapper div {
+	display: flex;
+}
+.years-success-section .success-div-wrapper div .image-div2 {
+	align-self: center;
 }
