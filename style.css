@@ -141,13 +141,32 @@
 
 .years-success-section {
 	padding: 100px 0;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.years-success-section .success-div-wrapper h2 {
+	font-size: 50px;
+	line-height: 65px;
+}
+.years-success-section .success-div-wrapper p {
+	margin-right: 100px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+
+	letter-spacing: 0.04em;
+
+	color: #646464;
+	margin-bottom: 50px;
+}
+
+.years-success-section .success-div-wrapper .image-wrapper-div {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.years-success-section .success-div-wrapper div {
-	display: flex;
-}
-.years-success-section .success-div-wrapper div .image-div2 {
-	align-self: center;
+.blank-image3 {
+	margin: 30px 15px;
 }
