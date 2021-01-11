@@ -20,6 +20,11 @@
 	height: 376px;
 	background-color: #d7d7d7;
 }
+.blank-image4 {
+	width: 650px;
+	height: 454px;
+	background-color: #d7d7d7;
+}
 .main-container {
 	max-width: 1368px;
 	margin: 0 auto;
@@ -135,6 +140,12 @@
 .single-services h3 {
 	padding-bottom: 10px;
 	font-size: 24px;
+}
+.service-content h4 {
+	font-size: 12px;
+	color: #646464;
+	padding-bottom: 19px;
+	text-transform: uppercase;
 }
 
 /* Years Success */
@@ -256,4 +267,107 @@
 	line-height: 28px;
 	color: #646464;
 	margin: 10px 70px;
+}
+
+/* Latest Blog Section  */
+.latest-blog-section {
+	padding: 93px 0px;
+	background: #f8f8f8;
+}
+.latest-blogs-contents {
+	text-align: center;
+}
+.latest-blogs-contents h5 {
+	font-size: 12px;
+	line-height: 22px;
+
+	color: #646464;
+}
+.latest-blogs-contents h2 {
+	font-size: 48px;
+
+	/* identical to box height, or 58% */
+
+	color: #111111;
+}
+
+/* Blogs Sections */
+
+.blog-images-contents {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0px;
+}
+.blog-section-flex {
+	margin: 0 20px;
+}
+.blog-images-contents .blog-section-flex h3 {
+	padding: 15px 0;
+	font-size: 30px;
+}
+.blog-images-contents .blog-section-flex p {
+	padding: 15px 0;
+	font-size: 18px;
+	color: #646464;
+}
+
+.blog-section-flex .blog-button {
+	display: inline-block;
+	background-color: #212121;
+	color: white;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-decoration: none;
+	border-radius: 0px;
+	transition: all 0.1s;
+}
+.blog-section-flex .blog-button:hover {
+	background-color: white;
+	color: #212121;
+}
+
+/* Sign Up  Section Start  */
+
+.sign-up-section {
+	padding: 100px;
+	text-align: center;
+}
+.sign-up-section h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+.sign-up-section p {
+	font-size: 18px;
+	width: 50%;
+	font-weight: 500;
+	padding-top: 20px;
+	margin: 0 auto;
+	color: #646464;
+}
+
+.sign-up-section .subscribe-button {
+	display: inline-block;
+	background-color: #212121;
+	color: white;
+	padding: 10px 45px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-decoration: none;
+	border-radius: 0px;
+	transition: all 0.1s;
+	margin: 40px;
+}
+.sign-up-section .subscribe-button:hover {
+	background-color: white;
+	color: #212121;
+}
+
+.footer {
+	text-align: center;
+	color: #646464;
+	padding: 20px 0px;
 }
